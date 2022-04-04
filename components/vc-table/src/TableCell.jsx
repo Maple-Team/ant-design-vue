@@ -129,9 +129,9 @@ export default {
 
     return (
       <BodyCell class={cellClassName} {...tdProps}>
+        {text}
         {indentText}
         {expandIcon}
-        {text}
       </BodyCell>
     );
   },
